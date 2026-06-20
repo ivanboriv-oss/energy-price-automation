@@ -13,6 +13,6 @@ You will need to add your own credentials in the code to make it work:
 *(Make sure not to commit your actual passwords if you fork this!)*
 
 ### Stuff used
-- `requests` for handling the API calls and session cookies
-- `xml.etree.ElementTree` because the ENTSO-E API returns XML instead of JSON
-- `time` and `datetime` to sync the script with the 15-minute market intervals
+- requests for handling the API calls and session cookies
+- xml.etree.ElementTree because the ENTSO-E API returns XML instead of JSON
+- time and datetime to sync the script with the 15-minute market intervals
